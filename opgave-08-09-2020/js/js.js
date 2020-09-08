@@ -1,6 +1,6 @@
 // JavaScript Document
 const isPrime = function (arg) {
-    for (var i = 3; i < arg; i += 2) {
+    for (var i = 3; i < arg; i += 2 ) {
         if (arg % i === 0) {
             return false;
         }
